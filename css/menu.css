@@ -1,0 +1,243 @@
+/*==============================
+    RESET
+==============================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:url("../assets/bg/fondo-hero.png") center top no-repeat;
+
+    background-size:cover;
+
+    color:#222;
+
+    padding:20px;
+
+}
+
+
+/*==============================
+    ENCABEZADO
+==============================*/
+
+.hero-menu{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.logo{
+
+    width:170px;
+
+    margin:20px auto;
+
+    display:block;
+
+}
+
+.hero-menu h1{
+
+    color:#c62026;
+
+    font-size:2.2rem;
+
+    margin-bottom:8px;
+
+}
+
+.hero-menu p{
+
+    color:#444;
+
+    font-size:1rem;
+
+}
+
+
+/*==============================
+    CATEGORÍAS
+==============================*/
+
+.categoria{
+
+    background:rgba(255,255,255,.96);
+backdrop-filter:blur(8px);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    margin-bottom:28px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+}
+
+.titulo{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px;
+
+    font-size:1.15rem;
+
+    font-weight:700;
+
+    color:white;
+
+    letter-spacing:1px;
+
+}
+
+.icono{
+
+    font-size:1.3rem;
+
+}
+
+.azul{
+
+    background:#003b7a;
+
+}
+
+.rojo{
+
+    background:#c62026;
+
+}
+
+.especial{
+
+    background:#8d1d1d;
+
+}
+
+
+/*==============================
+    PLATOS
+==============================*/
+
+.item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 20px;
+
+    border-bottom:1px solid #ececec;
+
+    transition:.25s;
+
+}
+
+.item:hover{
+
+    background:#fff7ec;
+
+}
+
+.item:last-child{
+
+    border-bottom:none;
+
+}
+
+.nombre{
+
+    font-size:1rem;
+
+    font-weight:500;
+
+}
+
+.precio{
+
+    font-size:1.05rem;
+
+    font-weight:700;
+
+    color:#c62026;
+
+}
+
+
+/*==============================
+    FOOTER
+==============================*/
+
+footer{
+
+    text-align:center;
+
+    margin:40px 0;
+
+}
+
+footer a{
+
+    text-decoration:none;
+
+    color:#003b7a;
+
+    font-weight:700;
+
+}
+
+
+/*==============================
+    TABLET
+==============================*/
+
+@media(min-width:768px){
+
+body{
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+.hero-menu h1{
+
+    font-size:2.8rem;
+
+}
+
+.logo{
+
+    width:210px;
+
+}
+
+.item{
+
+    padding:20px 30px;
+
+}
+
+}

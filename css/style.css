@@ -1,0 +1,320 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#222;
+
+    background:url("../assets/bg/fondo-hero.png") center top no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+}
+
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    min-height:auto;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px 20px 10px;
+}
+
+.logo{
+
+    width:330px;
+
+    max-width:95%;
+
+    margin-bottom:15px;
+
+}
+
+.mascota{
+
+    width:300px;
+
+    max-width:90%;
+
+    margin-top:-70px;
+
+    margin-bottom:5px;
+
+}
+
+.subtitulo{
+
+    font-size:1rem;
+
+    letter-spacing:3px;
+
+    color:#333;
+
+    margin-bottom:10px;
+
+}
+
+h1{
+
+    font-size:3rem;
+
+    font-weight:800;
+
+    color:#c81f25;
+
+    line-height:1;
+
+}
+
+.descripcion{
+
+    max-width:340px;
+
+    margin-top:15px;
+
+    margin-bottom:10px;
+
+    font-size:1rem;
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+   CONTACTO
+========================== */
+
+.contact-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.contact-links a{
+
+    text-decoration:none;
+
+    color:#003b7a;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+}
+
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    text-align:center;
+
+    padding:40px 20px;
+
+    color:white;
+
+    background:#0d2d52;
+
+    margin-top:60px;
+
+}
+
+
+/* ==========================
+   TABLET
+========================== */
+
+@media(min-width:768px){
+
+.logo{
+
+    width:230px;
+
+}
+
+.mascota{
+
+    width:330px;
+
+}
+
+h1{
+
+    font-size:5rem;
+
+}
+
+.descripcion{
+
+    max-width:550px;
+
+}
+
+.about,
+.menu-preview,
+.contacto{
+
+    padding:50px;
+
+}
+
+}
+
+
+/* ==========================
+   DESKTOP
+========================== */
+
+@media(min-width:1200px){
+
+.hero{
+
+    padding:70px;
+
+}
+
+.logo{
+
+    width:260px;
+
+}
+
+.mascota{
+
+    width:380px;
+
+}
+
+h1{
+
+    font-size:6rem;
+
+}
+
+}
+/* ==========================
+   ACCESO RÁPIDO
+========================== */
+
+.acceso-rapido{
+
+    max-width:900px;
+    margin:0 auto 40px;
+    padding:20px;
+
+}
+
+.acceso-rapido h2{
+
+    text-align:center;
+    font-size:2rem;
+    color:#0d2d52;
+    margin-bottom:30px;
+
+}
+
+.acciones{
+
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+
+}
+
+.accion-card{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:18px 22px;
+
+    text-decoration:none;
+
+    color:#222;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.icono-card{
+
+    width:58px;
+    height:58px;
+
+    background:#c81f25;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:1.5rem;
+
+    flex-shrink:0;
+
+}
+
+.texto-card{
+
+    flex:1;
+
+    margin-left:18px;
+
+}
+
+.texto-card h3{
+
+    color:#0d2d52;
+
+    margin-bottom:4px;
+
+}
+
+.texto-card p{
+
+    color:#666;
+
+    font-size:.95rem;
+
+}
+
+.flecha{
+
+    font-size:1.8rem;
+
+    color:#0d2d52;
+
+}
