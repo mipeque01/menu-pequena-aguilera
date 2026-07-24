@@ -287,6 +287,12 @@ h1{
 
 }
 
+.icono-card img{
+    width:28px;
+    height:28px;
+    object-fit:contain;
+}
+
 .texto-card{
 
     flex:1;
